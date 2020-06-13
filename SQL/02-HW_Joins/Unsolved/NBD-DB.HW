@@ -1,0 +1,9 @@
+SELECT * FROM players
+
+SELECT * FROM seasons_stats
+
+SELECT id,player,height,weight,college,born,position,tm FROM players JOIN seasons_stats
+ON players.id = seasons_stats.player_id;
+
+SELECT player_id,college,year,position,two_point_percentage,fg_percentage,ft_percentage,ts_percentage FROM players JOIN seasons_stats
+ON players.id = seasons_stats.player_id;

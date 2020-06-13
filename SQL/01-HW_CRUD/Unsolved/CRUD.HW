@@ -1,0 +1,14 @@
+select * from FirePower;
+
+DELETE FROM FirePower WHERE ReservePersonnel = 0;
+
+select * from FirePower where FighterAircraft =0
+
+update FirePower set FighterAircraft = 1 where FighterAircraft =0
+
+SELECT AVG(TotalMilitaryPersonnel) as Avg_Total_Military_Personnel,
+AVG(TotalAircraftStrength)as Avg_Total_Aircraft_Strength, 
+AVG(TotalHelicopterStrength) as Avg_Total_Helicopter_Strength, 
+AVG(TotalPopulation) as Avg_Total_Population FROM FirePower; 
+
+

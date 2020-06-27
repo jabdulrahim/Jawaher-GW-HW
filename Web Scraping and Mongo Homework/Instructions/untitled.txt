@@ -1,0 +1,5 @@
+scrape works inside jupyter "name of the file"
+that producess the output that you see in the data route (app.py)
+because my computer doesnt support selinum through Flask (security issue)
+if you run the "/data" route that will populate the data 
+

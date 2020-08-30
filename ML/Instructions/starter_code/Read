@@ -1,0 +1,8 @@
+the best Model for us her is "Model_3" it is the Logistic regressionis, a linear model for classification. known in the literature as a maximum-entropy classification (MaxEnt) or the log-linear classifier. In this model, the probabilities describing the possible outcomes of a single trial are modeled using a logistic function.
+This implementation can fit binary, One-vs-Rest, or multinomial logistic regression with optional or Elastic-Net regularization.
+used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+Input values (x) are combined linearly using weights or coefficient values to predict an output value (y).
+steps:
+1.Input variables
+2.Predict variable
+3.Data exploration
